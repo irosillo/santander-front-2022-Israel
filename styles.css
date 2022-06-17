@@ -1,10 +1,11 @@
 body {
-    background-color: #fffbf7;
+    background-color: #9e744b;
 }
 
 h1 {
     color: #025157;
     text-align: center;
+    font-family: 'Alegreya', serif;
 }
 p {
     color: #8b8b8bcc;
@@ -21,9 +22,13 @@ button {
     margin-right: 20px;*/
     margin: 40px 20px 20px 0px;
     font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
 }
 li{
     display: inline;
+    margin-right: 0px;
+    margin-left: 25px;
 }
 .header > * {
     display: inline-block;
@@ -34,6 +39,8 @@ li{
 }
 .logo{
     width: 15%;
+    /*margin-right: 0%;
+    padding-right: 0%;*/
 }
 .logo > img{
     width: 15%;
@@ -43,14 +50,43 @@ li{
     text-align: center;
     color: #025157;
     font-weight: 500;
+    text-align: left;
+    height: 45px;
+    margin-left: 5px;
 }
 .actions{
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
 }
+.actions > *{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.actions > a {
+    color: #67b54b;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.actions button{
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+
+}
 .main {
     margin-top: 140px;
-    
+    text-align: center;
+
+}
+.menu-item{
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
 }
